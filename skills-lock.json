@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "css": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "computedHash": "80c477418be4bdd2d102ba5a71760125a9c1925292f5b3c208ee56ab9e6e3cc2"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "html": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "computedHash": "3cdff568d692ae5dd1adebfbbcae39f07eaf27e6a578be5de9a4549ac295a804"
+    },
+    "modern-javascript-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d70f1ca67d23cc2c1e0bd3191a1da3875394316dfa87c4871370face4265a0ad"
+    }
+  }
+}
