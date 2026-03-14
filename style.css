@@ -9,11 +9,8 @@
   --border: rgba(61, 13, 17, 0.12);
   --font-display: "Dancing Script", "Trebuchet MS", cursive;
   --font-body: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
-  --shadow-soft: 0 18px 40px rgba(61, 13, 17, 0.12);
-  --shadow-hover: 0 28px 50px rgba(61, 13, 17, 0.18);
-  --radius-lg: 24px;
   --radius-md: 18px;
-  --section-padding: clamp(3rem, 6vw, 6rem);
+  --section-padding: clamp(1.5rem, 3vw, 3rem);
   --container-width: min(1100px, 92vw);
 }
 
@@ -68,7 +65,7 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .section__header h2 {
