@@ -109,6 +109,8 @@ a:focus-visible {
 }
 
 .hero__firstname {
+  position: relative;
+  z-index: 1;
   font-size: clamp(4rem, 7vw, 10rem);
   font-family: var(--hero-font-firstname);
   color: var(--hero-color-firstname);
