@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Alfa+Slab+One&family=Dancing+Script:wght@400;500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -27,22 +27,27 @@
   <body>
     <div class="page">
       <header class="hero">
-        <div class="hero__image">
-          <picture>
-            <source
-              srcset="images/saga-mobile.jpg"
-              media="(max-width: 700px)"
-            />
-            <img
-              src="images/saga-desktop.jpg"
-              alt="Portrait of Saga Andersson"
-              width="3024"
-              height="1701"
-              loading="eager"
-            />
-          </picture>
-          <div class="hero__overlay">
-            <h1 class="hero__name reveal">Saga Andersson</h1>
+        <div class="hero__frame">
+          <div class="hero__card">
+            <div class="hero__portrait">
+              <div class="hero__portrait-inner">
+                <img
+                  src="images/SAGA.JPG"
+                  alt="Portrait of Saga Andersson"
+                  width="5184"
+                  height="3888"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            </div>
+
+            <div class="hero__type">
+              <h1 class="hero__title" aria-label="Saga Andersson">
+                <span class="hero__script" aria-hidden="true">Saga</span>
+                <span class="hero__slab" aria-hidden="true">ANDERSSON</span>
+              </h1>
+            </div>
           </div>
         </div>
       </header>
