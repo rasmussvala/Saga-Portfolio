@@ -109,7 +109,7 @@ a:focus-visible {
 }
 
 .hero__firstname {
-  font-size: clamp(2rem, 7vw, 10rem);
+  font-size: clamp(4rem, 7vw, 10rem);
   font-family: var(--hero-font-firstname);
   color: var(--hero-color-firstname);
   letter-spacing: -0.02em;
@@ -118,7 +118,7 @@ a:focus-visible {
 }
 
 .hero__lastname {
-  font-size: clamp(2rem, 7vw, 10rem);
+  font-size: clamp(3rem, 7vw, 10rem);
   font-family: var(--hero-font-lastname);
   color: var(--hero-color-lastname);
   letter-spacing: -0.02em;
@@ -239,6 +239,18 @@ a:focus-visible {
 }
 
 @media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .hero__firstname,
+  .hero__lastname {
+    padding-left: 0;
+    text-align: center;
+  }
+
 	.section__header {
 		margin-bottom: 1.6rem;
 	}
